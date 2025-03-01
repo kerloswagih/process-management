@@ -14,7 +14,7 @@ struct student {
     FILE * fileptr;
     if(argc!=4)    // if the number of arguments is not equal to 4 we terminate the program as it read wrong number of arguments
     {
-        printf("Usage: %s filename\n",argv[0]);
+        printf("wrong arguments in %s filename\n",argv[0]);
         exit(1);
     }
     char * filepath = argv[1];    // atoi converts string to integer
